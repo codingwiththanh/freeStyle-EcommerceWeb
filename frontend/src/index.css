@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'BlackItalic';
+  src: url('/font/Be_Vietnam_Pro/BeVietnamPro-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: url('/font/Be_Vietnam_Pro/BeVietnamPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SemiBold';
+  src: url('/font/Be_Vietnam_Pro/BeVietnamPro-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
