@@ -20,20 +20,20 @@ const Navi = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="text-primary text-5xl leading-[52px] cursor-pointer font-bold font-blackItalic">
+            <Link to="/" className="text-[#BF2025] text-5xl leading-[52px] cursor-pointer font-bold font-blackItalic">
               Freestyle
             </Link>
           </div>
 
           {/* Menu Links */}
           <div className="hidden lg:flex lg:space-x-8">
-            <Link to="/quan" className={`cursor-pointer text-xl ${isActive("/quan") ? "text-primary" : ""}`}>
+            <Link to="/quan" className={`cursor-pointer text-xl ${isActive("/quan") ? "text-[#BF2025]" : ""}`}>
               Quần
             </Link>
-            <Link to="/ao" className={`cursor-pointer text-xl ${isActive("/ao") ? "text-primary" : ""}`}>
+            <Link to="/ao" className={`cursor-pointer text-xl ${isActive("/ao") ? "text-[#BF2025]" : ""}`}>
               Áo
             </Link>
-            <Link to="/phukien" className={`cursor-pointer text-xl ${isActive("/phukien") ? "text-primary" : ""}`}>
+            <Link to="/phukien" className={`cursor-pointer text-xl ${isActive("/phukien") ? "text-[#BF2025]" : ""}`}>
               Phụ Kiện
             </Link>
           </div>
@@ -44,10 +44,10 @@ const Navi = () => {
               <input
                 type="text"
                 placeholder="Bạn đang tìm gì..."
-                className="border-none outline-none bg-inputBg rounded-full pl-10 py-2 w-[280px] text-base"
+                className="border-none outline-none bg-[#F5F6F5] rounded-full pl-10 py-2 w-[280px] text-base"
               />
               <div className="absolute left-2 top-1/2 -translate-y-1/2">
-                <Link to="/timkiem" className={isActive("/timkiem") ? "text-primary" : ""}>
+                <Link to="/timkiem" className={isActive("/timkiem") ? "text-[#BF2025]" : ""}>
                   <Search />
                 </Link>
               </div>
@@ -59,13 +59,13 @@ const Navi = () => {
                 </div>
               ) : (
                 <div className="text-2xl text-gray-600 cursor-pointer">
-                  <Link to="/dangnhap" className={isActive("/dangnhap") ? "text-primary" : ""}>
+                    <Link to="/dangnhap" className={isActive("/dangnhap") ? "text-[#BF2025]" : ""}>
                     <UserRound />
                   </Link>
                 </div>
               )}
               <div className="text-2xl text-gray-600 cursor-pointer">
-                <Link to="/giohang" className={isActive("/giohang") ? "text-primary" : ""}>
+                <Link to="/giohang" className={isActive("/giohang") ? "text-[#BF2025]" : ""}>
                   <ShoppingBag />
                 </Link>
               </div>

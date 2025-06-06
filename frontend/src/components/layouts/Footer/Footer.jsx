@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 py-8">
           <div className="flex flex-col md:flex-row md:justify-between">
             <div className="mb-6 md:mb-0 w-80">
-              <span className="text-4xl font-bold text-primary font-blackItalic">Freestyle</span>
+              <span className="text-4xl font-bold text-[#BF2025] font-blackItalic">Freestyle</span>
               <h3 className="text-sm text-gray-900 mt-2 font-bold font-semiBold">HKD Nguyễn Văn Thành</h3>
               <div className="text-[10px] text-gray-900 font-regular">
                 <p>
@@ -37,7 +37,7 @@ const Footer = () => {
                 />
                 <button
                   type="submit"
-                  className="w-full bg-[#FAF3E0] text-primary py-3 px-7 border-none cursor-pointer transition-colors duration-300 font-bold font-semiBold"
+                  className="w-full bg-[#FAF3E0] text-[#BF2025] py-3 px-7 border-none cursor-pointer transition-colors duration-300 font-bold font-semiBold"
                 >
                   ĐĂNG KÝ
                 </button>
@@ -52,18 +52,18 @@ const Footer = () => {
             </div>
 
             <div>
-              <h3 className="text-base mb-2 text-primary font-bold font-semiBold">Về chúng tôi</h3>
+              <h3 className="text-base mb-2 text-[#BF2025] font-bold font-semiBold">Về chúng tôi</h3>
               <div className="flex flex-col gap-2 text-sm font-regular">
-                <Link to="/" className={isActive("/") ? "text-primary" : "text-gray-800 hover:text-primary"}>Trang chủ</Link>
-                <Link to="/gioithieu" className={isActive("/gioithieu") ? "text-primary" : "text-gray-800 hover:text-primary"}>Giới thiệu</Link>
-                <Link to="/album" className={isActive("/album") ? "text-primary" : "text-gray-800 hover:text-primary"}>Album</Link>
-                <Link to="/blog" className={isActive("/blog") ? "text-primary" : "text-gray-800 hover:text-primary"}>Blog</Link>
-                <Link to="/hethongcuahang" className={isActive("/hethongcuahang") ? "text-primary" : "text-gray-800 hover:text-primary"}>Hệ thống cửa hàng</Link>
+                <Link to="/" className={isActive("/") ? "text-[#BF2025]" : "text-gray-800 hover:text-[#BF2025]"}>Trang chủ</Link>
+                <Link to="/gioithieu" className={isActive("/gioithieu") ? "text-[#BF2025]" : "text-gray-800 hover:text-[#BF2025]"}>Giới thiệu</Link>
+                <Link to="/album" className={isActive("/album") ? "text-[#BF2025]" : "text-gray-800 hover:text-[#BF2025]"}>Album</Link>
+                <Link to="/blog" className={isActive("/blog") ? "text-[#BF2025]" : "text-gray-800 hover:text-[#BF2025]"}>Blog</Link>
+                <Link to="/hethongcuahang" className={isActive("/hethongcuahang") ? "text-[#BF2025]" : "text-gray-800 hover:text-[#BF2025]"}>Hệ thống cửa hàng</Link>
               </div>
             </div>
 
             <div>
-              <h3 className="text-base mb-2 text-primary font-bold font-semiBold">Chính sách</h3>
+              <h3 className="text-base mb-2 text-[#BF2025] font-bold font-semiBold">Chính sách</h3>
               <div className="flex flex-col gap-2 text-sm font-regular">
                 <a href="#" className="hover:text-gray-800">Chính sách bảo mật</a>
                 <a href="#" className="hover:text-gray-800">Chính sách đổi trả</a>
@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-4 text-sm text-gray-500 text-center border-t py-2 font-regular">
-          © 2025 Thiết kế và phát triển bởi <span className="text-primary">Nguyễn Văn Thành</span> và <span className="text-primary">Nguyễn Nhật Tú</span>
+          © 2025 Thiết kế và phát triển bởi <span className="text-[#BF2025]">Nguyễn Văn Thành</span> và <span className="text-[#BF2025]">Nguyễn Nhật Tú</span>
         </div>
       </footer>
     </>
